@@ -15,7 +15,7 @@ const displayWinner = document.querySelector('.displayWinner');
 let turnX = true;
 let boxClickedCount = 0;
 
-boxArray.forEach((box, index) => {
+boxArray.forEach((box) => {
     box.addEventListener('click', () => {
         
         if (turnX) {  
@@ -60,7 +60,7 @@ const disableButtons = () => {
 
 const displayResult = (arg) => {
     if (arg === 'Draw') {
-        displayWinner.innerText = `${arg} `;
+        displayWinner.innerText = `${arg}`;
         return;
     }
     displayWinner.innerText = `${arg} is the Winner!`;

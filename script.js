@@ -45,6 +45,7 @@ const checkWin = () => {
         if (box1 !== "" && box2 !== "" && box3 !== "") {
             if ((box1 === box2) && (box2 === box3)) {
                 const winner = box1;
+                boxClickedCount = 0;
                 disableButtons();
                 displayResult(winner);
             }

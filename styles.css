@@ -47,7 +47,7 @@ h1 {
     height: 15vh;
     border-radius: 7px;
     font-size: 4rem;
-    padding-top: 5px;
+    line-height: 15vh;
 }
 
 .box:hover {
@@ -85,6 +85,7 @@ h1 {
     .box {
         width: 15vw;
         height: 12vh;
+        line-height: 12vh;
     }
 }
 
@@ -103,5 +104,6 @@ h1 {
     .box {
         width: 22vw;
         height: 13vh;
+        line-height: 13vh;
     }
 }
